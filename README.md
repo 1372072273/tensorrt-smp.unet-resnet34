@@ -1,6 +1,6 @@
-# tensorrt-smp.unet-resnet34
+# tensorrt-smp.unet-resnet34 and smp.deeplabv3plus-resnet34
 step1:
-tensorrt for segmentation models pytorch's unet model,resnet34 is the backbone
+tensorrt for segmentation models pytorch's unet and deeplabv3plus model,resnet34 is the backbone
 the model is form https://github.com/qubvel/segmentation_models.pytorch,
 Net type is Unet,Encoder is resnet34,you can use pip install segmentation_models.pytorch to download it,train your own model.
 step2:
